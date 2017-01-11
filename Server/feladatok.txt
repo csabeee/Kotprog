@@ -1,0 +1,4 @@
+Hozzunk létre egy saját NodeJS projektet egy külön mappába. A minta forráskód szolgáljon mintául.
+Készítsünk egy package.json-t majd telepítsük az Express-t és a body-parser-t.
+Hozzunk létre 2 különböző REST-et POST típussal. 
+Csináljunk egy HTML-t a "/" hívásra
