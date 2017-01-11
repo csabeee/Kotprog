@@ -3,7 +3,8 @@ var cors = require('cors');
 
 var path = require('path');
 
-var app = express();
+var app = require('express')();
+var text;
 
 var port = 8080;
 app.use(cors());
@@ -13,8 +14,8 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname +'/site'));
 
 
-app.post('/post', function(req, res){
-    console.log(req.body.data); 
+app.post('/post', function (req, res, next){
+    console.log(req.body); 
     res.send('200').end(); 
 });
 
