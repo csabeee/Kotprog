@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\SZTE\mobil_erzekelo\Beadando\branches\Valami\Kameras_projekt\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="D:\SZTE\mobil_erzekelo\Beadando\branches\Valami\Kameras_projekt\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_a1cec80e6806b0cd29a77a28d888dc29729b13e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SZTE\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="D:\SZTE\mobil_erzekelo\Beadando\branches\Valami\Kameras_projekt\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_883a705a815396106f0be7a28e7a37137d2d09ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SZTE\mobil_erzekelo\Beadando\branches\Valami\Kameras_projekt\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="D:\SZTE\mobil_erzekelo\Beadando\branches\Valami\Kameras_projekt\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_3c890ec6c7f2cd885b5c32cd1fe5f42e2ad1cfab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SZTE\mobil_erzekelo\Beadando\branches\Valami\Kameras_projekt\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="873daaba9b25e7f07376989b900fc46e99a9271c">
+        <dex dex="D:\SZTE\mobil_erzekelo\Beadando\branches\Valami\Kameras_projekt\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_a3971211fb08fc59166ef47fa3834740c9d56e94.jar" />
+    </item>
+
+</items>
