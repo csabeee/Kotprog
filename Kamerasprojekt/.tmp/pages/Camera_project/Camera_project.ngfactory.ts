@@ -129,16 +129,12 @@ class _View_Camera_project0 extends import1.AppView<import0.Camera_project> {
   _el_22:any;
   _text_23:any;
   _text_24:any;
-  _el_25:any;
-  _text_26:any;
-  _text_27:any;
-  _text_28:any;
+  _text_25:any;
   /*private*/ _expr_0:any;
   /*private*/ _expr_1:any;
   /*private*/ _expr_4:any;
   /*private*/ _expr_6:any;
   /*private*/ _expr_7:any;
-  /*private*/ _expr_9:any;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import3.AppElement) {
     super(_View_Camera_project0,renderType_Camera_project,import6.ViewType.COMPONENT,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
@@ -216,10 +212,7 @@ class _View_Camera_project0 extends import1.AppView<import0.Camera_project> {
     this._el_22 = this.renderer.createElement((null as any),'div',(null as any));
     this.renderer.setElementAttribute(this._el_22,'class','enjoy-css');
     this._text_23 = this.renderer.createText(this._el_22,'Start camera',(null as any));
-    this._text_24 = this.renderer.createText((null as any),'\n  \n  ',(null as any));
-    this._el_25 = this.renderer.createElement((null as any),'p',(null as any));
-    this._text_26 = this.renderer.createText(this._el_25,'',(null as any));
-    this._text_27 = this.renderer.createText((null as any),'\n\n',(null as any));
+    this._text_24 = this.renderer.createText((null as any),'\n\n',(null as any));
     compView_14.create(this._Content_14_4.context,[
       ([] as any[]),
       ([] as any[]).concat([
@@ -229,15 +222,13 @@ class _View_Camera_project0 extends import1.AppView<import0.Camera_project> {
         this._el_19,
         this._text_21,
         this._el_22,
-        this._text_24,
-        this._el_25,
-        this._text_27
+        this._text_24
       ]
       ),
       ([] as any[])
     ]
     ,(null as any));
-    this._text_28 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this._text_25 = this.renderer.createText(parentRenderNode,'\n',(null as any));
     this._expr_0 = import7.UNINITIALIZED;
     this._expr_1 = import7.UNINITIALIZED;
     var disposable_0:Function = this.renderer.listen(this._el_4,'click',this.eventHandler(this._handle_click_4_0.bind(this)));
@@ -245,7 +236,6 @@ class _View_Camera_project0 extends import1.AppView<import0.Camera_project> {
     this._expr_6 = import7.UNINITIALIZED;
     this._expr_7 = import7.UNINITIALIZED;
     var disposable_1:Function = this.renderer.listen(this._el_22,'click',this.eventHandler(this._handle_click_22_0.bind(this)));
-    this._expr_9 = import7.UNINITIALIZED;
     this.init(([] as any[]),[
       this._el_0,
       this._text_1,
@@ -272,10 +262,7 @@ class _View_Camera_project0 extends import1.AppView<import0.Camera_project> {
       this._el_22,
       this._text_23,
       this._text_24,
-      this._el_25,
-      this._text_26,
-      this._text_27,
-      this._text_28
+      this._text_25
     ]
     ,[
       disposable_0,
@@ -292,7 +279,7 @@ class _View_Camera_project0 extends import1.AppView<import0.Camera_project> {
     if (((token === import35.ToolbarTitle) && ((9 <= requestNodeIndex) && (requestNodeIndex <= 10)))) { return this._ToolbarTitle_9_4.context; }
     if (((token === import36.Navbar) && ((2 <= requestNodeIndex) && (requestNodeIndex <= 11)))) { return this._Navbar_2_4.context; }
     if (((token === import27.Header) && ((0 <= requestNodeIndex) && (requestNodeIndex <= 12)))) { return this._Header_0_3.context; }
-    if (((token === import37.Content) && ((14 <= requestNodeIndex) && (requestNodeIndex <= 27)))) { return this._Content_14_4.context; }
+    if (((token === import37.Content) && ((14 <= requestNodeIndex) && (requestNodeIndex <= 24)))) { return this._Content_14_4.context; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
@@ -341,11 +328,6 @@ class _View_Camera_project0 extends import1.AppView<import0.Camera_project> {
     if (import4.checkBinding(throwOnChange,this._expr_7,currVal_7)) {
       this.renderer.setElementClass(this._el_14,'statusbar-padding',currVal_7);
       this._expr_7 = currVal_7;
-    }
-    const currVal_9:any = import4.interpolate(1,'',this.context.text,'');
-    if (import4.checkBinding(throwOnChange,this._expr_9,currVal_9)) {
-      this.renderer.setText(this._text_26,currVal_9);
-      this._expr_9 = currVal_9;
     }
     this.detectViewChildrenChanges(throwOnChange);
     if (!throwOnChange) { if ((this.numberOfChecks === 0)) { this._Navbar_2_4.context.ngAfterViewInit(); } }

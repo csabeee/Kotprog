@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\SZTE\mobil_erzekelo\Beadando\branches\Valami\Kameras_projekt\platforms\android\libs"/></dataSet><dataSet config="debug"><source path="D:\SZTE\mobil_erzekelo\Beadando\branches\Valami\Kameras_projekt\platforms\android\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\SZTE\mobil_erzekelo\proba\branches\Valami\Kamerasprojekt\platforms\android\libs"/></dataSet><dataSet config="debug"><source path="D:\SZTE\mobil_erzekelo\proba\branches\Valami\Kamerasprojekt\platforms\android\src\debug\jniLibs"/></dataSet></merger>

@@ -170,10 +170,7 @@ var _View_Camera_project0 = (function (_super) {
         this._el_22 = this.renderer.createElement(null, 'div', null);
         this.renderer.setElementAttribute(this._el_22, 'class', 'enjoy-css');
         this._text_23 = this.renderer.createText(this._el_22, 'Start camera', null);
-        this._text_24 = this.renderer.createText(null, '\n  \n  ', null);
-        this._el_25 = this.renderer.createElement(null, 'p', null);
-        this._text_26 = this.renderer.createText(this._el_25, '', null);
-        this._text_27 = this.renderer.createText(null, '\n\n', null);
+        this._text_24 = this.renderer.createText(null, '\n\n', null);
         compView_14.create(this._Content_14_4.context, [
             [],
             [].concat([
@@ -183,13 +180,11 @@ var _View_Camera_project0 = (function (_super) {
                 this._el_19,
                 this._text_21,
                 this._el_22,
-                this._text_24,
-                this._el_25,
-                this._text_27
+                this._text_24
             ]),
             []
         ], null);
-        this._text_28 = this.renderer.createText(parentRenderNode, '\n', null);
+        this._text_25 = this.renderer.createText(parentRenderNode, '\n', null);
         this._expr_0 = import7.UNINITIALIZED;
         this._expr_1 = import7.UNINITIALIZED;
         var disposable_0 = this.renderer.listen(this._el_4, 'click', this.eventHandler(this._handle_click_4_0.bind(this)));
@@ -197,7 +192,6 @@ var _View_Camera_project0 = (function (_super) {
         this._expr_6 = import7.UNINITIALIZED;
         this._expr_7 = import7.UNINITIALIZED;
         var disposable_1 = this.renderer.listen(this._el_22, 'click', this.eventHandler(this._handle_click_22_0.bind(this)));
-        this._expr_9 = import7.UNINITIALIZED;
         this.init([], [
             this._el_0,
             this._text_1,
@@ -224,10 +218,7 @@ var _View_Camera_project0 = (function (_super) {
             this._el_22,
             this._text_23,
             this._text_24,
-            this._el_25,
-            this._text_26,
-            this._text_27,
-            this._text_28
+            this._text_25
         ], [
             disposable_0,
             disposable_1
@@ -256,7 +247,7 @@ var _View_Camera_project0 = (function (_super) {
         if (((token === import27.Header) && ((0 <= requestNodeIndex) && (requestNodeIndex <= 12)))) {
             return this._Header_0_3.context;
         }
-        if (((token === import37.Content) && ((14 <= requestNodeIndex) && (requestNodeIndex <= 27)))) {
+        if (((token === import37.Content) && ((14 <= requestNodeIndex) && (requestNodeIndex <= 24)))) {
             return this._Content_14_4.context;
         }
         return notFoundResult;
@@ -315,11 +306,6 @@ var _View_Camera_project0 = (function (_super) {
         if (import4.checkBinding(throwOnChange, this._expr_7, currVal_7)) {
             this.renderer.setElementClass(this._el_14, 'statusbar-padding', currVal_7);
             this._expr_7 = currVal_7;
-        }
-        var currVal_9 = import4.interpolate(1, '', this.context.text, '');
-        if (import4.checkBinding(throwOnChange, this._expr_9, currVal_9)) {
-            this.renderer.setText(this._text_26, currVal_9);
-            this._expr_9 = currVal_9;
         }
         this.detectViewChildrenChanges(throwOnChange);
         if (!throwOnChange) {

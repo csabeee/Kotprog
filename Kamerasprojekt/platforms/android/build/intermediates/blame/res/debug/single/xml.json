@@ -1,7 +1,15 @@
 [
     {
+        "merged": "D:\\SZTE\\mobil_erzekelo\\proba\\branches\\Valami\\Kamerasprojekt\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "D:\\SZTE\\mobil_erzekelo\\proba\\branches\\Valami\\Kamerasprojekt\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
         "merged": "D:\\SZTE\\mobil_erzekelo\\Beadando\\branches\\Valami\\Kameras_projekt\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
         "source": "D:\\SZTE\\mobil_erzekelo\\Beadando\\branches\\Valami\\Kameras_projekt\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "D:\\SZTE\\mobil_erzekelo\\proba\\branches\\Valami\\Kamerasprojekt\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "D:\\SZTE\\mobil_erzekelo\\proba\\branches\\Valami\\Kamerasprojekt\\platforms\\android\\res\\xml\\provider_paths.xml"
     },
     {
         "merged": "D:\\SZTE\\mobil_erzekelo\\Beadando\\branches\\Valami\\Kameras_projekt\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
